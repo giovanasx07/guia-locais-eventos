@@ -1,0 +1,44 @@
+    /* Cabeçalho Principal */
+.header-principal {
+    display: flex;
+    justify-content: space-between; /* Separa a identidade e o menu nas extremidades */
+    align-items: center;            /* Alinha ambos verticalmente ao centro */
+    padding: 1.5rem 2rem;
+    background-color: #1a237e;       /* Ajuste a cor de fundo desejada */
+    color: #ffffff;
+  }
+  
+  /* Agrupamento da Identidade */
+  .identidade h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .identidade .subtitulo {
+    margin: 0.25rem 0 0 0;
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  
+  /* Agrupamento do Menu de Navegação */
+  .header-principal nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;                   /* Espaçamento uniforme entre os links */
+  }
+  
+  .header-principal nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .header-principal nav a:hover,
+  .header-principal nav a.ativo {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
